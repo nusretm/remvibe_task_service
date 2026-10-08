@@ -1,20 +1,18 @@
 publish_to: none
 name: remvibe_task_service
-description: RemVibe Task Service.
+description: Reusable RemVibe sequential task-list lifecycle service.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/nusretm/remvibe_task_service
 
 environment:
-  sdk: ^3.12.2
+  sdk: '>=3.5.0 <4.0.0'
 
-# Add regular dependencies here.
 dependencies:
-  path: ^1.9.0
   remvibe_dart_models:
     git:
       url: https://github.com/nusretm/remvibe_dart_models
       ref: main
 
 dev_dependencies:
-  lints: ^6.0.0
-  test: ^1.25.6
+  lints: ^5.0.0
+  test: ^1.25.8
